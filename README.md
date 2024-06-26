@@ -1,16 +1,44 @@
-# fyp_automated_video_editing_app
+# Flutter Video Editing App
+This Flutter application provides an intuitive video editing experience with various functionalities, including trimming, rotating, cropping, and exporting videos. The app is designed to be user-friendly and efficient, making video editing accessible to everyone.
 
-A new Flutter project.
+## Features
+- **Video Selection:** Pick videos from your device's gallery.
+- **Trimming:** Easily trim the video to the desired length
+- **Rotation:** Rotate the video in 90-degree increments.
+- **Cropping:** Crop the video to remove unwanted areas.
+- **Exporting:**  Export the edited video and save it to the gallery.
+- **Cover Exporting:** Export a specific frame as a cover image.
+- **Real-time Preview:** Preview the video during the editing process.
 
-## Getting Started
+## Screenshots
+![pic1](https://github.com/Mohsin0855/Flutter-Video-Editing-App/assets/60180890/36e7ba13-b328-4184-882d-1632d63ccf4d)
+![pic2](https://github.com/Mohsin0855/Flutter-Video-Editing-App/assets/60180890/aab188b7-aeaf-4d65-b986-a0fd40837bfc)
+![pic3](https://github.com/Mohsin0855/Flutter-Video-Editing-App/assets/60180890/ac3ac8a9-ee6b-49c0-81c1-24943d490c8e)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mohsin0855/Flutter-Video-Editing-App.git
+   cd Flutter-Video-Editing-App
+2. Install dependencies:
+   ```bash
+   flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Run the app:
+   ```bash
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Usage
+1. **Select a Video:**
+- Upon opening the app, pick a video from your device.
+2. **Edit the Video:**
+- Use the trimming tool to cut the video to the desired length.
+- Rotate the video using the rotate buttons.
+- Crop the video to focus on specific areas.
+- Export the edited video or a frame as a cover image.
+3. **Save and Share:**
+- Save the edited video to your gallery.
+- Share the video directly from the app.
+
